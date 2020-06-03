@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 10 00:20:54 2019
+
+@author: filipeneto
+"""
+
+# GEt two integers from the user
+dividend, divisor = eval(input("Please enter two numbers to divide: "))
+# If possible , divide them and repor the result
+if divisor != 0:
+    quotitent = dividend/divisor
+    print(dividend, '/', divisor, "=", quotitent)
+print('Program finished')
